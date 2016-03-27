@@ -5,13 +5,10 @@ import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.List;
 
-import org.xmlpull.v1.XmlPullParser;
-import org.xmlpull.v1.XmlPullParserException;
-import org.xmlpull.v1.XmlPullParserFactory;
+import com.sun.xml.internal.bind.CycleRecoverable.Context;
 
-import android.content.Context;
-import android.util.Log;
 import ro.pub.cs.systems.eim.lab02.activitylifecyclemonitor.entities.Credential;
+import sun.rmi.runtime.Log;
 
 public class Utilities {
 	
